@@ -1,0 +1,172 @@
+h1 {
+    color: #666;
+    margin: 20px 10px 0px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#box div {
+    flex: 1;
+    min-width: 300px;
+    background-size: cover;
+    background-position: right;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+
+
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon-cart-empty {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button.btn {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #343a40;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #212529;
+}
+
+
+form.d-flex {
+    margin-right: 20px;
+}
+
+input.form-control {
+    width: 200px;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.internship-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.internship-box {
+    flex-basis: calc(50% - 20px);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.internship-box:hover {
+    transform: scale(1.05);
+}
+
+.internship-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.web {
+    background-image: url('https://image.freepik.com/free-vector/purple-web-development-background_76964-167.jpg');
+
+
+}
+
+.app {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.8zpicwS3MoHqL44Qov-oYAHaD5&pid=Api&P=0&h=180');
+
+}
+
+.python {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.ShkBGWpWL4y9BjfkdZsrUQHaEK&pid=Api&P=0&h=180');
+
+}
+
+.java {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.ePxgMpxO-bLNJ5dtGjF_BgHaEo&pid=Api&P=0&h=180');
+}
+
+.canva {
+    background-image: url('https://clipartcraft.com/images/canva-logo-5.png');
+}
+
+.internship-details {
+    margin-top: 10px;
+}
+
+.detail-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.detail-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+}
